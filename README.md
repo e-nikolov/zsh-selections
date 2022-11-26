@@ -8,6 +8,8 @@ This zsh plugin adds hotkeys for selecting and editing the active line in zsh in
 
 - Ctrl    + X                     - cuts the current selection, removing it from the line and putting it in the clipboard.
                                   requires `xclip` or setting the `COPY_COMMAND` environment variable to an alternative command, e.g. `pbcopy` on MacOS or `clip.exe` on Windows with WSL
+- Ctrl + Z                        - Undo
+- Ctrl + Shift + Z                - Redo
 
 - Typing a Backspace or Delete while there is an active selection will remove the selected text
 - Typing a character while there is an active selection will replace the selected text with that character
