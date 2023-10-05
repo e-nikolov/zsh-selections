@@ -38,10 +38,10 @@ export KEY_SHIFT_END=$'^[[1;2F'
 export KEY_HOME=$'\EOH'
 export KEY_SHIFT_HOME=$'^[[1;2H'
 
-export KEY_CTRL_SHIFT_C=$'^]C'
-export KEY_CTRL_SHIFT_X=$'^]X'
-export KEY_CTRL_SHIFT_V=$'^]V'
-export KEY_CTRL_SHIFT_Z=$'^]Z'
+export KEY_CTRL_SHIFT_C=$'^[]C'  # custom via konsole.keytab
+export KEY_CTRL_SHIFT_X=$'^[]X'  # custom via konsole.keytab
+export KEY_CTRL_SHIFT_V=$'^[]V'  # custom via konsole.keytab
+export KEY_CTRL_SHIFT_Z=$'^[]Z'  # custom via konsole.keytab
 
 export KEY_CTRL_X=$'^X'
 export KEY_CTRL_V=$'^V'
@@ -179,10 +179,10 @@ keyBindings=(
     'backward-char|'$ACTION_SELECT_BACKWARD_CHAR'|select|backward-char'
     'forward-char|'$ACTION_UNSELECT_FORWARD_CHAR'|unselect|forward-char'
     'backward-char|'$ACTION_UNSELECT_BACKWARD_CHAR'|unselect|backward-char'
-    'forward-word|'"$ACTION_SELECT_FORWARD_WORD"'|select|forward-word'
-    'backward-word|'"$ACTION_SELECT_BACKWARD_WORD"'|select|backward-word'
-    'forward-word|'"$ACTION_UNSELECT_FORWARD_WORD"'|unselect|forward-word'
-    'backward-word|'"$ACTION_UNSELECT_BACKWARD_WORD"'|unselect|backward-word'
+    'forward-word|'"$ACTION_SELECT_FORWARD_WORD"'|select|emacs-forward-word'
+    'backward-word|'"$ACTION_SELECT_BACKWARD_WORD"'|select|emacs-backward-word'
+    'forward-word|'"$ACTION_UNSELECT_FORWARD_WORD"'|unselect|emacs-forward-word'
+    'backward-word|'"$ACTION_UNSELECT_BACKWARD_WORD"'|unselect|emacs-backward-word'
     'beginning-of-line|'$ACTION_SELECT_BEGINNING_OF_LINE'|select|beginning-of-line'
     'end-of-line|'$ACTION_SELECT_END_OF_LINE'|select|end-of-line'
     'beginning-of-line|'$ACTION_UNSELECT_BEGINNING_OF_LINE'|unselect|beginning-of-line'
