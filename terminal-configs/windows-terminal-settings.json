@@ -1,0 +1,186 @@
+{
+    "actions": [
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[A"
+            },
+            "keys": "ctrl+shift+a"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[B"
+            },
+            "keys": "ctrl+shift+b"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[C"
+            },
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[D"
+            },
+            "keys": "ctrl+shift+d"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[E"
+            },
+            "keys": "ctrl+shift+e"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[F"
+            },
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[G"
+            },
+            "keys": "ctrl+shift+g"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[H"
+            },
+            "keys": "ctrl+shift+h"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[I"
+            },
+            "keys": "ctrl+shift+i"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[J"
+            },
+            "keys": "ctrl+shift+j"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[K"
+            },
+            "keys": "ctrl+shift+k"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[L"
+            },
+            "keys": "ctrl+shift+l"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[M"
+            },
+            "keys": "ctrl+shift+m"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[N"
+            },
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[O"
+            },
+            "keys": "ctrl+shift+o"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[P"
+            },
+            "keys": "ctrl+shift+p"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[Q"
+            },
+            "keys": "ctrl+shift+q"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[R"
+            },
+            "keys": "ctrl+shift+r"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[S"
+            },
+            "keys": "ctrl+shift+s"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[T"
+            },
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[U"
+            },
+            "keys": "ctrl+shift+u"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[V"
+            },
+            "keys": "ctrl+shift+v"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[W"
+            },
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[X"
+            },
+            "keys": "ctrl+shift+x"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[Y"
+            },
+            "keys": "ctrl+shift+y"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[Z"
+            },
+            "keys": "ctrl+shift+z"
+        }
+    ]
+}
