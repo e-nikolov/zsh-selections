@@ -1,5 +1,7 @@
 This zsh plugin adds hotkeys for selecting and editing the active line in zsh in a way similar to a text editor.
 
+![Demo](demo/demo.gif)
+
 - Ctrl    + A                     - adds the entire line to the selection
 - Shift   + Left Arrow            - adds one character to the left of the cursor to the selection
 - Shift   + Right Arrow           - adds one character to the right of the cursor to the selection
