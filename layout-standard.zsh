@@ -87,4 +87,14 @@ export ACTION_SELECT_END_OF_LINE=$KEY_SHIFT_END
 export ACTION_SELECT_BEGINNING_OF_LINE=$KEY_SHIFT_HOME
 export ACTION_UNSELECT_END_OF_LINE=$KEY_END
 export ACTION_UNSELECT_BEGINNING_OF_LINE=$KEY_HOME
-export COPY_COMMAND="${COPY_COMMAND:-xclip -sel clip}"
+
+# Try to detect the copy command
+if [ "$COPY_COMMAND" = "" ]; then
+  if command -v wl-copy > /dev/null && [ "$XDG_SESSION_TYPE" = "wayland" ]; then 
+    export COPY_COMMAND="wl-copy"
+  elif command -v xclip > /dev/null; then
+    export COPY_COMMAND="xclip -selection clipboard"
+  elif command -v pbcopy > /dev/null; then
+    export COPY_COMMAND="pbcopy"
+  fi;
+fi;
